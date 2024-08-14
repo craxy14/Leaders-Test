@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/0e8e964837.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div id="main-div">
+        <div id="register-sign-div">
+            <div id="reg-div">
+                <p class="reg">Register</p>
+                <form action="" id="reg-form">
+                    <label for="email">Enter your email:</label>
+                    <input type="text" name="email" id="email" placeholder="example@email.com"><br>
+                    <label for="password">Enter your password:</label>
+                    <input type="password" name="password" id="password" placeholder="password"><br>
+    
+                    <div>
+                        <label for="moderator">Moderator Privilages!</label>
+                        <input type="checkbox" name="moderator" id="moderator">
+                    </div><br>
+    
+                    <input type="submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+
+
+
+        <div id="register-sign-div">
+            <div id="reg-div">
+                <p class="reg">Sign In</p>
+                <form action="" id="sign-form">
+                    <label for="email">Enter your email:</label>
+                    <input type="text" name="email" id="emailLogin" placeholder="example@email.com"><br>
+
+                    <label for="password">Enter your password:</label>
+                    <input type="password" name="password" id="passwordLogin" placeholder="password"><br>
+    
+                    <div>
+                        <label for="moderator">Accept our Terms & Conditions?</label>
+                        <input type="checkbox" name="moderator" id="accept-terms">
+                    </div><br>
+    
+                    <input type="button" value="Log In" class="submit-btn" id="login-btn" onclick="myFunc()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Vano Motiashvili | All Rights Reserved.</p>
+        </div>
+        
+        <div id="contact-footer">
+            <i class="fa-brands fa-discord"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>   
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

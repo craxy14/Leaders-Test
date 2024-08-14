@@ -1,0 +1,131 @@
+/* imorting costom font for text */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gilda+Display&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IT+Moderna:wght@100..400&family=Press+Start+2P&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* styling all the elements in html document */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+
+body {
+    background-image: url(./images/statue2.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #222;
+    padding: 25px;
+    gap: 50px;
+    font-size: 1.15rem;
+}
+
+nav ul li {
+    transition: 0.25s;
+}
+
+nav ul li:hover{
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+    text-decoration: underline 2px;
+    text-underline-offset: 15px;
+    letter-spacing: 2px;
+}
+
+.group-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #222222d8;
+    padding: 50px;
+    border-radius: 10px;
+    transition: 0.25s;
+    text-align: center;
+    align-items: center;
+}
+
+.group-div:hover {
+    transform: scale(105%);
+    background-color: #181818;
+}
+
+#main-div {
+    margin-top: 50px;
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+}
+
+.group-p {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.students-p {
+    color: rgb(151, 255, 151);
+}
+
+#super-main-div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem 10%;
+    background: #222;
+    color: white;
+}
+
+#contact-footer {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-text p {
+    font-size: 1.2rem;
+}
+
+.fa-brands {
+    transition: 0.25s ease-in-out;
+    font-size: 1.4rem;
+}
+
+.fa-brands:hover {
+    transform: scale(1.2);
+}
+
+.fa-discord:hover {
+    color: #7289da;
+}
+
+.fa-facebook:hover {
+    color: #316FF6;
+}
+
+.fa-github:hover {
+    color: #adadad;
+}
+
+.fa-instagram:hover {
+    background-image: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 10%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
