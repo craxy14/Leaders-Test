@@ -41,44 +41,38 @@ nav ul li:hover{
     letter-spacing: 2px;
 }
 
-#main-info-div {
-    display: flex;
-    font-weight: 700;
-    justify-content: center;
-}
-
-
-.info-div {
-    background-color: #222222a1;
-    /* border-left: 1px solid rgb(0, 0, 0);
-    border-right: 1px solid black; */
-    border: 1px solid black;
-    padding: 30px 100px;
-    color: white;
-}
-
-#main-div {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#main-students-div {
+#main-div table{
     display: flex;
     justify-content: center;
 }
 
-i {
-    font-size: 1.5rem;
-    color: #1259b6;
-    transition: 0.25s;
+tr {
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
 }
 
-i:hover {
-    transform: scale(120%);
+table {
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 1.1rem;
+    padding: 25px;
+    background-color: #22222256;
 }
 
-.student p {
-    color: rgb(0, 201, 0);
-    font-weight: 500;
+.tr {
+    border-top: 1px solid white;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    color: rgb(4, 216, 4);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(56, 142, 241);
 }
