@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/0e8e964837.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="socials-nav">
+                <a href="https://discord.com/"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.facebook.com/nika11keshelava"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            
+            <h3><a href="./index.html">GOA Database</a></h3>
+            
+            <div class="socials-nav">
+                <a href="https://github.com/craxy14"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/goal_oriented_academy__goa/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </ul>
+    </nav>
+
+    <div id="main-body">
+        <div id="left-div">
+            <img src="https://media.istockphoto.com/id/1354673099/vector/people-analyze-a-lot-of-information-working-process-teamwork-communication-big-data.jpg?s=612x612&w=0&k=20&c=t-j7DSA4br9VOgyJf7eLAXMZv6zmyFjq5-IIRgD01q0=" alt="">
+            <p id="welcome-p">Welcome to <br><span id="welcome-span">Goal-Oriented Academy</span> DataBase!</p><br>
+
+            <p id="db-desc-p">Welcome to the Goal-Oriented Academy Database! At Goal-Oriented Academy, we empower students to achieve their potential through focused learning and personalized support. This database provides access to our programs, resources, and community, all designed to enhance your educational experience. Explore our offerings, track your progress, and connect with fellow learners. Together, we’ll turn your goals into reality!</p>
+        </div>
+
+        <div id="body-right">
+            <div id="main-div">
+                <div id="register-sign-div">
+                    <div id="reg-div">
+                        <p class="reg">Register</p>
+                        <form action="" id="reg-form">
+                            <label for="email">Enter your email:</label>
+                            <input type="text" name="email" id="email" placeholder="example@email.com"><br>
+                            <label for="password">Enter your password:</label>
+                            <input type="password" name="password" id="password" placeholder="password"><br>
+            
+                            <div>
+                                <label for="moderator">Moderator Privilages!</label>
+                                <input type="checkbox" name="moderator" id="moderator">
+                            </div><br>
+            
+                            <input type="submit" class="submit-btn">
+                        </form>
+                    </div>
+                </div>
+        
+        
+        
+                <div id="register-sign-div">
+                    <div id="reg-div">
+                        <p class="reg">Sign In</p>
+                        <form action="" id="sign-form">
+                            <label for="email">Enter your email:</label>
+                            <input type="text" name="email" id="emailLogin" placeholder="example@email.com"><br>
+        
+                            <label for="password">Enter your password:</label>
+                            <input type="password" name="password" id="passwordLogin" placeholder="password"><br>
+            
+                            <div>
+                                <label for="moderator">Accept our Terms & Conditions?</label>
+                                <input type="checkbox" name="moderator" id="accept-terms">
+                            </div><br>
+            
+                            <input type="button" value="Log In" class="submit-btn" id="login-btn" onclick="myFunc()">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>

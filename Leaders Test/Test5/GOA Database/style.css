@@ -1,0 +1,235 @@
+/* imorting costom font for text */
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+
+/* styling all the elements in html document */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Gilda Display", serif;
+    list-style: none;
+}
+
+a {
+    color: white;
+    transition: 0.25s;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+
+img {
+    width: 500px;
+}
+
+
+#main-body {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+
+#left-div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#db-desc-p {
+    color: grey;
+    text-align: center;
+    width: 50%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    background-color: #222;
+    padding: 15px;
+    gap: 50px;
+    font-size: 1.25rem;
+}
+
+#welcome-p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(0, 130, 173);
+}
+
+#welcome-span {
+    color: green;
+}
+
+
+nav ul li {
+    transition: 0.25s;
+}
+
+nav ul li:hover{
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+    text-decoration: underline 2px;
+    text-underline-offset: 15px;
+    letter-spacing: 2px;
+}
+
+#reg-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #222222c9;
+    border-radius: 10px;
+    padding: 50px;
+    width: fit-content;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.reg {
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+
+input {
+    padding: 7.5px 35px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+label {
+    color: white;
+    font-size: 0.9rem;
+}
+
+::placeholder {
+    font-size: 0.85rem;
+}
+
+.submit-btn {
+    color: rgb(255, 255, 255);
+    background-color: #141414;
+    border: 3px;
+    transition: 0.25s;
+}
+
+.submit-btn:hover {
+    background-color: #202020;
+}
+
+.socials-nav {
+    display: flex;
+    gap: 15px;
+}
+
+a:hover {
+    transform: scale(130%);
+}
+
+#main-div {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sign-div {
+    height: 520px;
+}
+
+
+
+
+
+/* imorting costom font for text */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gilda+Display&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IT+Moderna:wght@100..400&family=Press+Start+2P&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* styling all the elements in html document */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    background-color: #222;
+    padding: 15px;
+    gap: 50px;
+    font-size: 1.25rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+a:hover {
+    color: red;
+}
+
+tr:nth-child(odd){
+    background-color: #3dacf7;
+}
+
+table{
+    color: white;
+    background-color: #019879;
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+}
+
+th {
+    padding: 20px;
+    font-size: 1.35rem;
+    color: #fafafa;
+    border: 2px solid black;
+}
+
+td {
+    padding: 10px;
+    color: #000000;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+td a {
+    color: rgb(0, 255, 21);
+}
+
+#db-role-p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
