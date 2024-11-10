@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <p id="nav-p">Ivan</p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="../Login/login.html">Login</a></li>
+        </ul>
+        <button class="nav-btn">Join Waitlist</button>
+    </nav>
+
+    <main>
+        <div id="main-div">
+            <p id="slogan">"Invest in tomorrow<br>because the future is built today."</p>    
+
+            <form id="regForm">
+                <h2 class="form-h2">Register:</h2>
+
+                <div class="input-div">
+                    <label for="email-input">Enter your email:</label>
+                    <input type="email" name="email" id="email-input" placeholder="example@gmail.com">
+                    <span id="email-error"></span>
+                </div>
+
+                <div class="input-div">
+                    <label for="password-input">Enter your password:</label>
+                    <input type="password" name="password" id="password-input" placeholder="Password!123">
+                    <span id="password-error"></span>
+                </div>
+
+                <div id="checkbox-div">
+                    <input type="checkbox" id="admin-checkbox" name="admin">
+                    <label for="admin-checkbox">Admin</label>
+                </div>
+
+                <button id="regBtn" type="button" class="nav-btn">Submit</button>
+            </form>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

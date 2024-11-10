@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    background-color: #111;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+
+ul a:hover {
+    letter-spacing: 1.5px;
+    color: #9e9e9e;
+}
+
+.nav-btn {
+    border: none;
+    padding: 10px 15px;
+    background-color: #525252;
+    color: white;
+    transition: 0.25s;
+}
+
+.nav-btn:hover {
+    background-color: #bebebe;
+    color: #000000;
+}
+
+#nav-p {
+    font-size: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+#login-main {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./statue2.jpg);
+}
+
+.form-h2 {
+    color: white;
+}
+
+#slogan {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#main-div form {
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    background-color: #22222293;
+    gap: 30px;
+    flex-direction: column;
+}
+
+form label {
+    color: white;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+#checkbox-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.error-span {
+    color: red;
+    font-size: 0.65rem;
+}

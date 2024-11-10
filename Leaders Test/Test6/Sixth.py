@@ -27,6 +27,7 @@ def test(word):
                 final += i
 
         return final[1::]
-print(test(1))
+
+print(test("App7 Test"))
 
 # საშინელი კოდია ik but it works :( :)
