@@ -1,0 +1,26 @@
+k1,k2,k3,k4
+k1,k2,k4,k3
+k1,k3,k2,k4
+k1,k3,k4,k2
+k1,k4,k2,k3
+k1,k4,k3,k2
+k2,k1,k3,k4
+k2,k1,k4,k3
+k2,k3,k1,k4
+k2,k3,k4,k1
+k2,k4,k1,k3
+k2,k4,k3,k1
+k3,k1,k2,k4
+k3,k1,k4,k2
+k3,k2,k1,k4
+k3,k2,k4,k1
+k3,k4,k1,k2
+k3,k4,k2,k1
+k4,k1,k2,k3
+k4,k1,k3,k2
+k4,k2,k1,k3
+k4,k2,k3,k1
+k4,k3,k1,k2
+k4,k3,k2,k1
+
+sum = 24
