@@ -1,21 +1,21 @@
-# ფუნქცია რომელსაც გადაჰყავს რიცხვი ორობითი სისტემიდან ათობითში
-def decimal(num):
-    num = str(num)[::-1]
-    result = 0
+# # ფუნქცია რომელსაც გადაჰყავს რიცხვი ორობითი სისტემიდან ათობითში
+# def decimal(num):
+#     num = str(num)[::-1]
+#     result = 0
     
-    for i in range(len(num)):
-        if num[i] == "1":
-            result += 2 ** i
+#     for i in range(len(num)):
+#         if num[i] == "1":
+#             result += 2 ** i
     
-    return result
+#     return result
     
-print(decimal(100101))
-print(decimal(1101))
-print(decimal(10010111))
+# print(decimal(110010))
+# print(decimal(1101))
+# print(decimal(10010111))
 
-#------------------------------------------------------------------
+# #------------------------------------------------------------------
 
-# ფუნქცია რომელსაც გადაჰყავს რიცხვი ათობითი სისტემიდან ორობითში
+# # ფუნქცია რომელსაც გადაჰყავს რიცხვი ათობითი სისტემიდან ორობითში
 def binary(num):
     result = ""
     
@@ -25,39 +25,37 @@ def binary(num):
     
     return result[::-1]
     
-print(binary(234))
-print(binary(46))
-print(binary(145))
+print(binary(16))
 
-#------------------------------------------------------------------
+# #------------------------------------------------------------------
 
-# ფუნქცია რომელსაც გადაჰყავს რიცხვი ათობითი სისტემიდან რვაობითში
-def rvaobiti(num):
-    result = ""
+# # ფუნქცია რომელსაც გადაჰყავს რიცხვი ათობითი სისტემიდან რვაობითში
+# def rvaobiti(num):
+#     result = ""
     
-    while num > 0:
-        result += str(num % 8)
-        num = num // 8
+#     while num > 0:
+#         result += str(num % 8)
+#         num = num // 8
         
-    return result
+#     return result
     
-print(rvaobiti(54))
-print(rvaobiti(134))
+# print(rvaobiti(54))
+# print(rvaobiti(134))
 
-#------------------------------------------------------------------
+# #------------------------------------------------------------------
 
-# ფუნქცია რომელსაც გადაჰყავს რიცხვი რვაობითი სისტემიდან ათობითში
-def rvaobiti_to_atobiti(num):
-    num = str(num)[::-1]
-    res = 0
+# # ფუნქცია რომელსაც გადაჰყავს რიცხვი რვაობითი სისტემიდან ათობითში
+# def rvaobiti_to_atobiti(num):
+#     num = str(num)[::-1]
+#     res = 0
 
-    for i in range(len(num)):
-        res += (8 ** i) * int(num[i])
-    return res
+#     for i in range(len(num)):
+#         res += (8 ** i) * int(num[i])
+#     return res
 
-print(rvaobiti_to_atobiti(234))
-print(rvaobiti_to_atobiti(74))
-print(rvaobiti_to_atobiti(94))
-print(rvaobiti_to_atobiti(38))
+# print(rvaobiti_to_atobiti(234))
+# print(rvaobiti_to_atobiti(74))
+# print(rvaobiti_to_atobiti(94))
+# print(rvaobiti_to_atobiti(38))
 
-#------------------------------------------------------------------
+# #------------------------------------------------------------------

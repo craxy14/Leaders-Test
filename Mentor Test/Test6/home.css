@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#navDiv {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: #222222f6;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#navDiv ul {
+    display: flex;
+    gap: 50px;
+}
+
+#navDiv a {
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+    font-size: 1.25rem;
+}
+
+#navDiv a:hover {
+    letter-spacing: 3px;
+}
+
+#taskForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+#submitBtn {
+    padding: 5px 25px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #0056b3
+}
+
+#resultDiv {
+    margin-top: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 50px;
+    align-items: center;
+}
+
+#test {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#taskDiv {
+    width: 500px;
+    color: white;
+    border-radius: 15px;
+    background-color: #222222f6;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#taskNameP {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#taskNameDesc {
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+#navDiv {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: #222222f6;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+#navDiv ul {
+    display: flex;
+    gap: 50px;
+}
+
+#navDiv a {
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+    font-size: 1.25rem;
+}
+
+#navDiv a:hover {
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+#container {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mainContainerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherResult {
+    margin-top: 10px;
+    font-style: normal;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#weatherResult p {
+    font-size: 1.1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: white;
+    background-color: #222222f6;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
