@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+#leftDiv {
+    width: 25%;
+    height: 950px;
+    background-image: url(./images/bg-main-desktop.png);
+}
+
+#frontCardDiv {
+    background-image: url(./images/bg-card-front.png);
+    width: 450px;
+    height: 250px;
+    top: 190px;
+    left: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-weight: 500;
+}
+
+#backCardDiv {
+    position: absolute;
+    left: 200px;
+    width: 450px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-image: url(./images/bg-card-back.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 1.25;
+    font-weight: 500;
+}
+
+#cvcP {
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+}
+
+#cvcLabel {
+    margin-right: 145px;
+}
+
+#rightDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30%;
+}
+
+#frontCardUserDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cardNumber {
+    font-size: 2.1rem;
+}
+
+#cardUserMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+input {
+    width: fit-content;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.747);
+}
+
+.input1 {
+    width: fit-content;
+    padding: 5px 50px;
+    font-size: 1.25rem;
+}
+
+::placeholder {
+    color: rgba(128, 128, 128, 0.692);
+}
+
+.input2 {
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    width: 30%;
+}
+
+#dateMainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    width: 75px;
+}
+
+#inputsDiv {
+    display: flex;
+    gap: 60px;
+}
+
+#twoInputsDiv {
+    display: flex;
+    gap: 15px;
+}
+
+#expLabelDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 0.9rem;
+    color: hsl(278, 68%, 11%);
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+#confirmBtn {
+    width: fit-content;
+    padding: 15px 50px;
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+}

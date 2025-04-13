@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Leader exam 1 april</title>
+</head>
+<body>
+  <div id="leftDiv"></div>
+
+  <div id="rightDiv">
+    <div>
+      <div id="frontCardDiv">
+        <img src="./images/card-logo.svg" alt="" width="100px">
+
+        <div id="cardUserMainDiv">
+          <p id="cardNumber">0000 0000 0000 0000</p>
+
+          <div id="frontCardUserDiv">
+            <p id="cardHolderName">Jane Appleseed</p>
+            <p id="cardDate">00/00</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="backCardDiv">
+        <p id="cvcP">000</p>
+      </div>
+    </div>
+
+    <form id="myForm">
+      <div class="inputDiv">
+        <label for="nameInput">CARDHOLDER NAME</label>
+        <input type="text" placeholder="e.g. Jane Appleseed" id="nameInput" class="input1" name="cardNameInput">
+      </div>
+
+      <div class="inputDiv">
+        <label for="cardInput">CARD NUMBER</label>
+        <input type="text" placeholder="e.g. 1234 5678 9123 0000" id="cardInput" class="input1" name="cardNumInput">
+      </div>
+
+      <div id="dateMainDiv">
+        <div id="expLabelDiv">
+          <label for="dateInput">EXP. DATE (MM/YY)</label>
+          <label for="cvcInput" id="cvcLabel">CVC</label>
+        </div>
+
+        <div id="inputsDiv">
+          <div id="twoInputsDiv">
+            <input type="text" placeholder="YY" class="input2 date" name="cardYearInput">
+            <input type="text" placeholder="MM" id="dateInput" class="input2 date" name="cardMonthInput">
+          </div>
+
+          <input type="text" placeholder="e.g. 123" id="cvcInput" class="input2" name="cardCvcInput">
+        </div>
+
+      </div>
+
+      <button id="confirmBtn">Confirm</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
