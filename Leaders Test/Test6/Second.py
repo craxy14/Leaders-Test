@@ -10,4 +10,4 @@
 def decimal_to_binary(decimal):
     return bin(decimal)[2:]
 
-print(decimal_to_binary(15))
+print(decimal_to_binary(5))

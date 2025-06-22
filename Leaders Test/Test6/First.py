@@ -20,4 +20,4 @@ def binary_to_decimal(binary):
     return result
 
 
-print(binary_to_decimal(1111))
+print(binary_to_decimal(5))
