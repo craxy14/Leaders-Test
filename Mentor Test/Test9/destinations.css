@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #222;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #353535;
+    padding: 20px
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#destinationsDiv {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+
+.destImgDiv {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-position-x: -100px;
+}
+
+.destDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.batumi {
+    background-image: url("https://w0.peakpx.com/wallpaper/61/32/HD-wallpaper-batumi-courtyard-marriott-evening-sunset-modern-buildings-batumi-cityscape-georgia.jpg");
+}
+
+.qutaisi {
+    background-image: url("https://kingrent.ge/wp-content/uploads/%E1%83%A5%E1%83%A3%E1%83%97%E1%83%90%E1%83%98%E1%83%A1%E1%83%98.jpg");
+}
+
+.samegrelo {
+    background-image: url("https://georgia4you.ge/assets/images/upl/1568719471-Samegrelo1.jpg");
+}
+
+.swipeLeft {
+    background-color: #222;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: 0.25s;
+}
+
+.swipeRight {
+    background-color: #222;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: 0.25s;
+}
+
+.swipeLeft:hover {
+    background-color: rgb(91, 91, 91);
+}
+
+.swipeRight:hover {
+    background-color: rgb(91, 91, 91);
+}
+
+.destName {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.destDesc {
+    color: rgb(197, 197, 197);
+    font-size: 0.85rem;
+}
+
+.destPrice {
+    color: green;
+}
+
+.bookA {
+    background-color: rgb(208, 208, 208);
+    color: #222;
+    font-size: 0.85rem;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 7px 30px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.bookA:hover {
+    background-color: rgb(171, 171, 171);
+}
+
+.bookingDescDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

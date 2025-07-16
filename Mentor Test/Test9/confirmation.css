@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #222;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #353535;
+    padding: 20px
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#bookingsResP {
+    margin-top: 15px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+#renderDiv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookedDiv {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+footer {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

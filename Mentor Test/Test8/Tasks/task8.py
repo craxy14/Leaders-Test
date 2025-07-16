@@ -11,7 +11,7 @@
 def rotate_list(arr, num):
     if len(arr) == num:
         return arr
-    return arr[-num:][::-1] + arr[:-num]
+    return arr[-num:] + arr[:-num]
 
 print(rotate_list([1,2,3,4,5], 2))
 print(rotate_list([1,2,3], 1))

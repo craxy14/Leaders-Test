@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #222;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #353535;
+    padding: 20px
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#heroDiv {
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    background-image: url(./img.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcomeDiv {
+    width: 100%;
+    height: 100%;
+    background-color: #2222225b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#welcomeMainDiv {
+    color: white;
+    background-color: #222222d1;
+    display: flex;
+    padding: 75px;
+    gap: 30px;
+    max-width: 45%;
+    text-align: center;
+    font-size: 1.75rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#goaSpan {
+    color: green;
+}
+
+#descP {
+    color: rgb(203, 203, 203);
+    font-size: 0.85rem;
+}
+
+#welcomeMainDiv div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#bookNowA {
+    background-color: rgb(208, 208, 208);
+    color: #222;
+    font-size: 0.85rem;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 7px 30px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+#bookNowA:hover {
+    background-color: rgb(171, 171, 171);
+}
+
+footer {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

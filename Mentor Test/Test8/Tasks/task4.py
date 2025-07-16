@@ -15,15 +15,15 @@ def caesar_cipher(str, shift):
     for i in str:
         if i in alph and i.isupper() and i.isalpha():
             if alph.index(i) + shift <= len(alph):
-                result += alph[alph.index(i) + shift].upper()
+                result += alph[(alph.index(i) + shift) % 26].upper()
             else:
-                result += alph[alph.index(i) + shift].upper()
+                result += alph[(alph.index(i) + shift) % 26].upper()
 
         elif i in alph and not i.isupper() and i.isalpha():
             if alph.index(i) + shift <= len(alph):
-                result += alph[alph.index(i) + shift].upper()
+                result += alph[(alph.index(i) + shift) % 26].upper()
             else:
-                result += alph[alph.index(i) + shift].upper()
+                result += alph[(alph.index(i) + shift) % 26].upper()
         else:
             result += i
     
